@@ -1,5 +1,5 @@
 {
-  "name": "solo/storage",
+  "name": "solophp/storage",
   "type": "library",
   "description": "Simple PHP Data Storage",
   "keywords": ["php","data","storage"],
