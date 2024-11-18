@@ -11,11 +11,11 @@ class Storage
         $this->storageFolder = $storageFolder;
     }
 
-    public function set(string $key, string $token): bool
+    public function set(string $key, string $string): bool
     {
-        $tokenFile = fopen($this->storageFolder . $key, 'wb');
-        fwrite($tokenFile, $token);
-        return fclose($tokenFile);
+        $file = fopen($this->storageFolder . $key, 'wb');
+        fwrite($file, $string);
+        return fclose($file);
     }
 
     public function get(string $key): ?string
