@@ -1,8 +1,8 @@
 {
   "name": "solophp/storage",
   "type": "library",
-  "description": "Simple PHP Data Storage",
-  "keywords": ["php","data","storage"],
+  "description": "Simple file-based storage system for storing string data using key-value pairs.",
+  "keywords": ["php", "storage", "key-value", "file storage", "data storage", "simple storage"],
   "license": "MIT",
   "authors": [
     {
@@ -16,7 +16,7 @@
     }
   },
   "require": {
-    "php": ">=7.4"
+    "php": ">=8.1"
   },
   "minimum-stability": "dev",
   "prefer-stable": true
