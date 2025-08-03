@@ -1,6 +1,6 @@
 <?php declare(strict_types=1);
 
-namespace Solo;
+namespace Solo\Storage;
 
 /**
  * Class Storage
@@ -86,7 +86,10 @@ class Storage
     {
         try {
             $filePath = $this->getFilePath($key);
-            return !file_exists($filePath) || unlink($filePath);
+            if (!file_exists($filePath)) {
+                return true;
+            }
+            return unlink($filePath);
         } catch (\Throwable) {
             return false;
         }

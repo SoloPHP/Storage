@@ -1,7 +1,8 @@
 # Solo Storage
 
-[![Latest Version](https://img.shields.io/badge/version-1.1.0-blue.svg)](https://github.com/solo/storage/releases)
-[![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg)](LICENSE)
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/solophp/storage.svg)](https://packagist.org/packages/solophp/storage)
+[![License](https://img.shields.io/packagist/l/solophp/storage.svg)](LICENSE)
+[![PHP Version](https://img.shields.io/packagist/php-v/solophp/storage.svg)](https://packagist.org/packages/solophp/storage)
 
 A lightweight, file-based storage system for PHP applications that provides simple key-value pair storage functionality.
 
