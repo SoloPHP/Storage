@@ -2,6 +2,7 @@
   "name": "solophp/storage",
   "type": "library",
   "description": "Simple file-based storage system for storing string data using key-value pairs.",
+  "abandoned": true,
   "keywords": ["php", "storage", "key-value", "file storage", "data storage", "simple storage"],
   "license": "MIT",
   "authors": [
